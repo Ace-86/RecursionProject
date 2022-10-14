@@ -1,0 +1,1 @@
+(()=>{let e=[];function o(e){return e<2?e:o(e-1)+o(e-2)}const t=prompt("Enter the number of terms: ");if(t<=0)console.log("Enter a positive integer.");else for(let n=0;n<t;n++)e.push(o(n)),console.log(e)})();
